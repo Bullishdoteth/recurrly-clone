@@ -10,7 +10,7 @@ const SubscriptionDetails = () => {
     const { id } = useLocalSearchParams<{ id: string }>()
     return (
         <SafeAreaView className="flex-1 bg-background p-5">
-            <Text>Subscription Detaile: {id}</Text>
+            <Text>Subscription Detail : {id}</Text>
             <Link href="/">Go back</Link>
         </SafeAreaView>
     )
